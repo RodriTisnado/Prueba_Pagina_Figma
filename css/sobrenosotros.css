@@ -1,49 +1,45 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #4E2807;
-    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: #AF2B29;
 }
-
-header {
+header{
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items:center;
+    flex-direction:column;
     font-size: 19px;
     background-color: black;
-    padding-bottom: 10px;
 }
-
-nav ul {
+nav ul{
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap:15px;
 }
-
-nav ul li {
+nav ul li{
     display: inline;
-}
 
+}
 nav img {
     width: 200px;
 }
-
-nav a {
-    text-decoration: none;
-    color: white;
+nav a{
+   text-decoration: none; 
+   color: white;
 }
-
-nav a:hover {
+nav a:hover{
     text-decoration: underline;
 }
+.info{
+    text-align: center;
+    font-size: 14px;
 
+}
 .banner{
     display: flex;
     justify-content: center;
@@ -51,13 +47,9 @@ nav a:hover {
     padding: 20px;
     gap: 15px;
 }
-.container {
-    padding: 20px;
-    text-align: center;
-}
-h2 {
+p {
     color: white;
-    text-decoration: underline;
+    flex-direction: row;
 }
 main{
     background-color: #F6E4CA;
@@ -69,19 +61,109 @@ footer{
     justify-content:baseline;
     flex-direction: column;
 }
+.imagen img{
+    width: 700px;
+    padding: 20px;
+    float: left;
+    margin-right: 30px;
+}
+footer p{
+    font-size: 22px;
+}
+footer h1{
+    font-size: 32px;
+    color: white;
+}
+.imagen{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.padding1 {
+    padding: 5px;
+}
 .footer2{
     background-color: black;
     color: white;
-    font-size: 20px;
-    display: flex; 
-    justify-content: center;
 }
-.cuadro1{
+
+.nosotros {
+    background-color: #F9F5EC;
+    padding: 40px 20px;
+    color: black;
+  }
+   
+  .contenedornosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+   
+  .columna {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+   
+  .columna h2, .columna h3 {
+    color: #AF2B29;
+  }
+   
+  .imagennosotros img,
+  .imagenpersona img {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+   
+  .historia p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .columna p 
+  {
+    color: black;
+  }
+  .piepagina {
+    background-color: #8b0000;
     color: white;
-    overflow: auto;
-    float: right;
-    padding-top: 95px;
-}
-.cuadro2{
-    background-color:#A72525;
-}
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  .redes-footer img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .contenedor-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .info-footer {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .info-footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .redes-footer {
+    display: flex;
+    gap: 10px;
+  }
+   

@@ -81,11 +81,39 @@ footer h1{
 .padding1 {
     padding: 5px;
 }
-.footer2{
-    background-color: black;
+.piepagina {
+    background-color: #8b0000;
     color: white;
-    font-size: 20px;
-    display: flex; 
-    justify-content: center;
-}
-
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  .redes-footer img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .contenedor-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .info-footer {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .info-footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .redes-footer {
+    display: flex;
+    gap: 10px;
+  }

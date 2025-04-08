@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff9f3;
+    color: #2c2c2c;
+  }
+  
+  .encabezado {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo-nav {
+    width: 120px;
+    vertical-align: middle;
+  }
+  
+  .navegacion {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .info-nav {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #F6E4CA;
+    gap: 60px;
+  }
+  
+  .icono-banner {
+    width: 100px;
+    height: auto;
+  }
+  
+  .logo-central {
+    width: 250px;
+    height: auto;
+  }
+  
+  .contenedor-menu {
+    display: flex;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  
+  .menu-infantil,
+  .menu-bebidas {
+    width: 20%;
+    background-color: #F6E4CA;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .menu-infantil h2,
+  .menu-bebidas h2,
+  .menu-general h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #a60000;
+  }
+  
+  .item,
+  .item-menu {
+    margin-bottom: 20px;
+  }
+  
+  .item img,
+  .item-menu img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item p,
+  .item-menu p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .menu-general {
+    width: 60%;
+    
+  }
+  .menu-general img{
+    width: 200px;
+  }
+  
+  .item-menu h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .sucursal-info {
+    font-style: italic;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .subcategoria {
+    margin-bottom: 20px;
+  }
+  
+  .subcategoria h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subcategoria ul {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .contenedor-menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-infantil,
+    .menu-bebidas,
+    .menu-general {
+      width: 90%;
+    }
+  
+    .navegacion {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .banner {
+      flex-direction: column;
+    }
+  }
+nav a{
+    text-decoration: none;
+    color: white;
+
+}  
+nav a:hover{
+    text-decoration: underline;
+}
+.pie-pagina {
+  background-color: #8b0000;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.contenedor-footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.info-footer {
+  width: 100%;
+  max-width: 600px;
+}
+
+.info-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.redes-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.redes-footer img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
